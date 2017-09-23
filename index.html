@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta charset="utf-8">
 
@@ -24,20 +25,42 @@
     </div>
 
       <!-- Game counter -->
+    <div class="row-one">
+      <div class="col-lg-12">
+
+      <!--panel for guess-word -->
+        <div class="panel-one panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><strong>Guess the Word</strong></h3>
+            </div>
+            <div class="panel-body">
+
+        <!-- blanks to replace letters -->
+
+        <h3 id="word-blanks">_ _ _ _ _ _ _ _ _ _ </h3>
+
+            </div>
+        </div>
+        <!-- panel for wrong guess list -->
+        <div class="panel-two panel-default">
+          <div class="panel-body">
+            <!--  wrong guess location-->
+            <strong>Wrong Guess Partner</strong><span id="wrong-guesses"></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
 
 
-    <!-- holds words bank -->
 
-      <!-- blanks to replace letters -->
-
-      <h3>_ _ _ _ _ _ _ _ _ _ </h3>
 
       <!-- win counter -->
 
       <!-- loss counter -->
 
 
-      <script src="logic.js"></script>
+      <script src="game.js"></script>
   </body>
-  
+
 </html>
